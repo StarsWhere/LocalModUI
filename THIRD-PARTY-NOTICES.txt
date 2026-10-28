@@ -1,0 +1,7 @@
+LocalModUI original code and shared source utilities use the root MIT LICENSE.
+
+BSIPA, BeatSaberMarkupLanguage, SiraUtil, Harmony, Unity and Beat Saber are external dependencies referenced from the user installation. Their binaries are not redistributed or relicensed.
+
+The shared contract generator restores NJsonSchema 11.6.1, NJsonSchema.CodeGeneration.CSharp 11.6.1 and Newtonsoft.Json 13.0.3 through NuGet. These build tools are not bundled in the LocalModUI runtime. Their upstream license terms apply; related MIT license texts are retained in licenses/.
+NJsonSchema: https://github.com/RicoSuter/NJsonSchema
+Newtonsoft.Json: https://github.com/JamesNK/Newtonsoft.Json
